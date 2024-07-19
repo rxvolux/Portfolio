@@ -5,6 +5,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: inter;
+max-width: 100vw;
 }
 
 @font-face {
@@ -21,7 +22,7 @@ font-family: inter;
 /* =========================== Hero =========================== */
 
 #hero_container{
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     background: linear-gradient(25deg, #0e0e0e, #000000);
 }
@@ -88,7 +89,7 @@ font-family: inter;
 /* Navbar */
 
 .topnav{
-    width: 100vw;
+    max-width: 100vw;
     height: 15vh;
     display: flex;
     align-items: center;
@@ -119,4 +120,13 @@ margin-bottom: 0.23rem;
 #nav_logo a{
     font-size: 1.4rem;
     color: #fff;
+}
+
+/* Main Area */
+main{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    height: 85vh;
+    background: red;
 }
