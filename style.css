@@ -128,5 +128,7 @@ main{
     padding: 0;
     max-width: 100vw;
     height: 85vh;
-    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
