@@ -107,6 +107,7 @@ list-style: none;
 display: flex;
 z-index: 2; /* Ensure navbar items are above gradients */
 text-decoration: none;
+margin-right: 1rem;
 }
 
 .topnav a{
@@ -185,5 +186,4 @@ margin-right: 0.5rem;
 
 #main_cta_about{
     width: 150px;
-    margin-right: 2rem;
 }
